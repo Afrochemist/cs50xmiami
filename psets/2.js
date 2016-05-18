@@ -12,3 +12,13 @@ Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no mo
 */
 
 // write your solution here...
+
+	var snack = "Mochi";
+	var expirationDate = "6 months";
+	var rate = 3; // 3 per day
+	var currentAge = 26;
+	var maxAge = 70;
+	var daysInAYear = 365;
+	var differenceInYears = 44; 
+
+console.log("You will need " + (rate * daysInAYear * differenceInYears) + " "+ snack + " for the rest of your life"  )
