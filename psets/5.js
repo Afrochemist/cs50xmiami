@@ -10,6 +10,7 @@ For example:
   DrEvil(1000000): 1000000 dollars (pinky)
 */
 
-function drEvil(amount) {
-  // write your solution here...
-}
+	function DrEvil(amount) {
+		console.log( amount + " dollars");
+	}
+DrEvil(90);
