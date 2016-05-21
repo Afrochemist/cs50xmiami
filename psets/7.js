@@ -11,6 +11,7 @@ For example:
 fixStart('babble'): 'ba**le'
 */
 
-function fixStart(s) {
-  // write your solution here...
-}
+function fixStart(inputString) {
+    var firstChar = inputString.charAt(0);
+    return firstChar + inputString.slice(1).replace(new RegExp(firstChar, 'g'), '*');
+  }
